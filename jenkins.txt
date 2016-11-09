@@ -1,0 +1,9 @@
+layout-common.css
+	html/body
+		#size-panel
+		#breadcrumbBar
+		#main-panel
+style.css
+	td (lists)
+	a:link
+	a:visited
