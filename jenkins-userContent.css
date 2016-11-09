@@ -1,0 +1,106 @@
+@-moz-document url-prefix("http://192.168.140.251:8080/") {
+	/* GENERAL */
+		/* Default Background */
+		body {
+			background-color: #101010 !important; 
+		}
+		/* Default text */
+		body, table, form, input, td, th, p, textarea, select {
+			color: #F1F1F1 !important;
+		}
+		/* Default hyperlinks */
+		a:link {
+			color: #2097DE !important;
+		}
+		a:visited {
+			color: #2097DE !important;
+		}
+
+		/* General frames */
+		.pane-frame {
+			border: solid 1px #404040 !important;
+		}
+
+		/* General tables */
+		td {
+			background-color: #202024 !important;
+		}
+	/* HEADER */
+		#breadcrumbs {
+			background-color: #202020  !important;
+		}
+		#breadcrumbs a:link {
+			color: #F0F0F0  !important;
+		}
+		#breadcrumbs a:visited {
+			color: #F0F0F0  !important;
+		}
+		/* Search box */
+		#search-box {
+			background: #282828 url(jenkins-search.png) no-repeat 2px center !important;
+			border: 1px solid #404040 !important;
+			box-shadow: 0 0 5px #282828 inset !important;
+		}
+
+	/* DASHBOARD */
+		/* Tabs */
+		.tabBar {
+			border-bottom: solid 2px #2097DE !important;
+		}
+		.tabBar .tab a {
+			border: solid 1px #404040 !important;
+			border-bottom: none !important;
+			color: #F0F0F0 !important;
+			padding: 4px 8px !important;
+			border-top-left-radius: 0px !important;
+			border-top-right-radius: 0px !important;
+		}
+		.tabBar .tab a:hover {
+			background: #282828 !important;
+		}
+		.tabBar .tab a.addTab:hover {
+			background: #282828 !important;
+		}
+		.tabBar .tab:first-child {
+			margin-left: 15px;
+		}
+		.tabBar [type=radio]:checked ~ a {
+			background-color: #2097DE !important;
+		}
+		/* Headers */
+		#projectstatus .header > th {
+			background-color: #191919 !important;
+		}
+		#projectstatus .header > th > a {
+			color: #F1F1F1 !important;
+		}
+		/* Columns */
+		#projectstatus td:nth-child(4) > a {
+			color: #4EC9B0 !important;
+		}
+		#projectstatus td:nth-child(5) > a {
+			color: #4EC9B0 !important;
+		}
+
+	/* SIDE PANEL */
+		/* Headers */
+		#buildQueue > div:nth-child(1) > div:nth-child(1) {
+			background-color: #101010 !important;
+		}
+		#executors > div:nth-child(1) > div:nth-child(1) {
+			background-color: #101010 !important;
+		}
+
+/* Image replacer
+#job_ControlPanel-Develop > td:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
+	background: url("http://192.168.140.251:8080/static/a3033c70/images/32x32/health-60to79.png");
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 32px; NEW SIZE
+	height: 32px; NEW SIZE
+	padding-left: 32px; OLD SIZE
+}
+*/
+
+}
